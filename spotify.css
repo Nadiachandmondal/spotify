@@ -1,0 +1,440 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow:hidden;
+
+}
+.main{
+
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+
+}
+.sidebar{
+
+    background-color: red;
+    width: 340px;
+    border-radius: 1rem;/*=16px*/
+    background-color: black;
+    margin-right: 0.5rem;
+
+}
+.main-content{
+
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow:auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.music{
+
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 72px;
+}
+
+a{
+     text-decoration: none;
+     color: white;
+}
+
+.nav{
+
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+
+}
+
+.nav-optaion:hover{
+    line-height: 40px;
+    opacity: 1.5;
+   
+}
+
+.nav-optaion{
+
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+.nav-option,a{
+
+    font-size: 1rem;
+    margin-left: 1rem;
+    
+
+}
+
+.libarry{
+
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+
+}
+   
+
+.optaion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-optaion img{
+
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    padding-top: 2px;
+
+}
+.icons{
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    display: flex;
+}
+#your{
+    opacity: 0.5;
+    font-weight: bold;
+}
+#your:hover{
+    opacity: 1;
+}
+.icons i{
+    padding-right: 10px;
+    margin-top: 15px;
+    opacity:0.5;
+}
+
+.icons i:hover{
+    opacity: 1;
+}
+
+.box{
+
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 1.25rem 0 0.75rem 0;
+    padding: 0.75rem 1.25rem;
+    
+}
+
+.box-p1{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.badge{
+
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.dark-badge{
+
+    background-color: #fff;
+    color: #000;
+    height: 2.95rem;
+    width: 7.85rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: ease-in-out 1s;
+}
+
+.second-box{
+
+    background-color: #232323;
+    height: 9rem;
+    border-radius: 0.75rem;
+    margin: 1.25rem 0 0.75rem 0;
+    padding: 0.75rem 1.25rem;
+    
+}
+
+.sticky-nav{
+
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.sticky-nav-option{
+
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.sticky-nav-icons i{
+    font-size: 2rem;
+}
+
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+}
+
+.sticky-nav-option button{
+    margin-right: 1rem;
+}
+
+#user{
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 1000px){  /*for using hide .when is cross maximum width*/
+    .hide{
+        display: none;
+    }
+}
+
+.sign-up{
+
+    background-color: #121212;
+    color: #fff;
+    opacity: 0.75;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.sign-up:hover{
+
+    opacity: 1;
+    font-size: 1.2rem;
+}
+
+.user{
+    font-size: large;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.login{
+
+    cursor: pointer;
+}
+
+.login:hover{
+
+    transform: scale(1.11);
+    transition: ease-in-out 1s;
+}
+
+.card{
+
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.cards-container{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img{
+
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+
+    font-weight: 600;
+}
+
+.card-info{
+
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+.footer{
+
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+.music{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album{
+    width: 25%;
+    /* background-color: yellow; */
+}
+
+.player{
+    width: 50%;
+    /* background-color: red; */
+}
+
+.controls{
+    width: 25%;
+    /* background-color: green; */
+    display: flex;
+}
+
+.icon1{
+    height: 2rem;
+    width: 2rem;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin: 2px;
+    margin-left: 7px;
+}
+
+.icon2{
+    height: 2rem;
+    width: 2rem;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin: 2px;
+    margin-left: 7px;
+}
+.icon3{
+    height: 1.5rem;
+    width: 2rem;
+    padding-bottom: 4px;
+    padding-top: 6px;
+    margin: 2px;
+    margin-left: 7px;
+    opacity: 0.7;
+}
+
+.icon4{
+    height: 1.2rem;
+    width: 2rem;
+    padding-bottom: 4px;
+    padding-top: 9px;
+    margin: 2px;
+    margin-left: 7px;
+    opacity: 0.7;
+}
+
+.icon5{
+    height: 1.8rem;
+    width: 2rem;
+    padding-bottom: 4px;
+    padding-top: 5px;
+    margin: 2px;
+    margin-left: 5px;
+
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-controll-icon{
+    height: 1rem;
+    margin-right: 2rem;
+    opacity: 0.7;
+}
+
+.player-controll-icon:hover{
+    opacity: 1;
+
+}
+
+.middle{
+    opacity: 1;
+    height: 2rem;
+}
+
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+
+}
+
+.progress-bar::-webkit-slider-thumb{
+    
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+
+}
+
+.album_icon2{
+    height: 23.99px;
+    width: 23.99px;
+}
+
+
+
+
