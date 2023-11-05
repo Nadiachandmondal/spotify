@@ -316,6 +316,7 @@ a{
 .album{
     width: 25%;
     /* background-color: yellow; */
+    display: flex;
 }
 
 .player{
@@ -435,6 +436,38 @@ a{
     width: 23.99px;
 }
 
+.album_picture{
+    height: 45px;
+    margin-left: 10px;
+}
+.song_name{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-top: 7px;
+    line-height: 5px;
+    font-size: 10.5px;
+   
+}
 
+.album_photo{
+    margin-top: 10px;
+}
 
+.extra{
+    width: 25%;
+    display: flex;
+}
 
+.love{
+    height: 25px;
+    width: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.second{
+    height: 33px;
+    width: 35px;
+    margin-top: 17px;
+}
